@@ -1,0 +1,196 @@
+<!DOCTYPE html><html><title>4chan Extension Guide</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/materialize.min.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+
+	<div class="container">
+		<div class="hidedef card-panel orange darken-1"><h5 class="center-align"><i class="material-icons">report_problem</i> Your browser might not be supported! <i class="material-icons">report_problem</i></h5></div>
+		<div class="section">
+			<h4 id="install-a-userscript-extension"><a href="#install-a-userscript-extension"><i class="material-icons">keyboard_arrow_right</i></a> Install a userscript extension</h4>
+			<div class="divider"></div>
+			<p>Userscripts are little apps that can be run in your web browser. They allow you to customize your experience of the site in various useful ways.
+			<br>These extensions allow you to install userscripts. As 4chan X and NameSync are both userscripts, you will need one of these.</p>
+			<blockquote>
+				<b>Chrome</b>: <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey</a>
+				<br>
+				<b>Firefox</b>: <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a>
+			</blockquote>
+		</div>
+		<div class="section">
+			<h4 id="install-4chan-x"><a href="#install-4chan-x"><i class="material-icons">keyboard_arrow_right</i></a> Install <b>4chan X</b></h4>
+			<div class="divider"></div>
+			<p>4chan X is a userscript written by users of 4chan to add various features to the site.
+			<br>This is required to use NameSync.</p>
+			<blockquote>
+				<b>Chrome</b>: <a href="https://www.4chan-x.net/builds/4chan-X.user.js">Install</a> (or use the <a href="https://chrome.google.com/webstore/detail/4chan-x/ohnjgmpcibpbafdlkimncjhflgedgpam">Extension</a>)
+				<br>
+				<b>Firefox</b>: <a href="https://www.4chan-x.net/builds/4chan-X.user.js">Install</a>
+			</blockquote>
+		</div>
+		<div class="section">
+			<h4 id="configure-4chan-x"><a href="#configure-4chan-x"><i class="material-icons">settings</i></a> Configure <b>4chan X</b></h4>
+			<div class="divider"></div>
+			<p>4chan X has <b>a lot</b> of settings. I would highly recommend reading through all of them and deciding for yourself what you do and do not want.
+			<br>If you don't have the time or patience for that, you can check out the recommended settings below or just move on to the next step.</p>
+			<ul class="collapsible popout" data-collapsible="accordion">
+				<li>
+					<div class="collapsible-header"><i class="material-icons">developer_board</i> Recommended Settings</div>
+					<div class="collapsible-body">
+						<p>The 4chan X version as of writing this is <b>1.13.15.1</b>
+						<br>If you have a newer version of 4chan X, some of these settings might have been removed or had their names changed.
+						<br>Note that some of these settings may already be enabled or disabled by default.</p>
+						<p>
+							<b>Miscellaneous</b>
+							<br><i class="tiny material-icons">check_box</i> Redirect to HTTPS
+							<br><i class="tiny material-icons">check_box</i> JSON Index
+							<br><i class="tiny material-icons">check_box</i> Use 4chan X Catalog
+							<br><i class="tiny material-icons">check_box</i> Announcement Hiding
+							<br><i class="tiny material-icons">check_box</i> 404 Redirect
+							<br><i class="tiny material-icons">check_box</i> Exempt Archives from Encryption
+						</p>
+						<p>
+							<b>Linkification</b>
+							<br><i class="tiny material-icons">check_box</i> Linkify
+							<br><i class="tiny material-icons">check_box</i> Embedding
+							<br><i class="tiny material-icons">check_box</i> Floating Embeds
+						</p>
+						<p>
+							<b>Filtering</b>
+							<br><i class="tiny material-icons">check_box</i> Filter
+							<br><i class="tiny material-icons">check_box</i> Filtered Backlinks
+							<br><i class="tiny material-icons">check_box</i> Stubs
+						</p>
+						<p>
+							<b>Images and Videos</b>
+							<br><i class="tiny material-icons">check_box</i> Sauce
+							<br><i class="tiny material-icons">check_box</i> WEBM Metadata
+							<br><i class="tiny material-icons">check_box</i> Use Faster Image Host
+						</p>
+						<p>
+							<b>Monitoring</b>
+							<br><i class="tiny material-icons">check_box</i> Thread Stats
+							<br><i class="tiny material-icons">check_box</i> IP Count in Stats
+							<br><i class="tiny material-icons">check_box</i> Page Count in Stats
+							<br><i class="tiny material-icons">check_box</i> Mark New IPs
+						</p>
+						<p>
+							<b>Posting and Captchas</b>
+							<br><i class="tiny material-icons">check_box</i> Quick Reply
+						</p>
+						<p>
+							<b>Quote Links</b>
+							<br><i class="tiny material-icons">check_box</i> Remember Your Posts
+							<br><i class="tiny material-icons">check_box</i> Mark Quotes of You
+							<br><i class="tiny material-icons">check_box</i> Mark OP Quotes
+							<br><i class="tiny material-icons">check_box</i> Mark Cross-thread Quotes
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="section">
+			<h4 id="install-namesync"><a href="#install-namesync"><i class="material-icons">keyboard_arrow_right</i></a> Install <b>NameSync</b></h4>
+			<div class="divider"></div>
+			<p>NameSync allows for the name, email, and subject fields to be used on boards where these are disabled.
+			<br>Boards affected: /b/, /soc/, /s4s/, /trash/</p>
+			<blockquote>
+				<b>Chrome</b>: <a href="https://namesync.net/namesync/builds/NameSync.user.js">Install</a> (or use the <a href="https://chrome.google.com/webstore/detail/4chan-x-name-sync/cgfjnpgnolbkmhmagkaihicooplcjipl">Extension</a>)
+				<br>
+				<b>Firefox</b>: <a href="https://namesync.net/namesync/builds/NameSync.user.js">Install</a>
+			</blockquote>
+		</div>
+		<div class="section">
+			<h4 id="install-oneechan"><a href="#install-oneechan"><i class="material-icons">add</i></a> OPTIONAL: Install <b>OneeChan</b></h4>
+			<div class="divider"></div>
+			<p>OneeChan is a userscript that functions on top of 4chan X and allows you to customize the site with various functions, themes and mascots.
+			<br>Originally developed by seaweedchan, this fork adds compatibility with various 4chan X versions and more custom options.</p>
+			<blockquote>
+				<b>Chrome</b>: <a href="https://nebukazar.github.io/OneeChan/builds/OneeChan.user.js">Install</a>
+				<br>
+				<b>Firefox</b>: <a href="https://nebukazar.github.io/OneeChan/builds/OneeChan.user.js">Install</a>
+			</blockquote>
+		</div>
+		<div class="section">
+			<h4 id="install-tripfag-finder"><a href="#install-tripfag-finder"><i class="material-icons">add</i></a> OPTIONAL: Install <b>Tripfag-Finder</b></h4>
+			<div class="divider"></div>
+			<p>Tripfag-Finder is a userscript that allows you to view the threads NameSync users are posting in.
+			<br>It also allows you to mark threads by categories so that other Tripfag-Finder users can find them.</p>
+			<blockquote>
+				<b>Chrome</b>: <a href="https://github.com/bstats/Tripfag-Finder/raw/master/Tripfag-Finder.user.js">Install</a> (or use the <a href="https://chrome.google.com/webstore/detail/4chan-tripfag-finder/edfokkmgaoaaakgaidkanoioaofademk">Extension</a>)
+				<br>
+				<b>Firefox</b>: <a href="https://github.com/bstats/Tripfag-Finder/raw/master/Tripfag-Finder.user.js">Install</a>
+			</blockquote>
+		</div>
+		<div class="section">
+			<h4 id="generate-a-custom-tripcode"><a href="#generate-a-custom-tripcode"><i class="material-icons">add</i></a> OPTIONAL: Generate a custom tripcode</h4>
+			<div class="divider"></div>
+			<p>Tripcodes can help verify a user's identity to others, and are a type of pseudo-registration. To use a normal tripcode, place a hash mark ("#") followed by a word or short phrase after what you've entered into the [Name] field (ex. "User#password"). Upon submission, the server will generate the hash unique to that particular word or phrase.
+			<br>The previous example would display "User !ozOtJW9BFA" after being posted.
+			<br>The following applications will let you generate custom vanity tripcodes by using the processing power of your computer.</p>
+			<ul class="collapsible popout" data-collapsible="expandable">
+				<li>
+					<div class="collapsible-header"><i class="material-icons">developer_board</i> <b>Recommended</b>: Meriken's Tripcode Engine</div>
+					<div class="collapsible-body">
+						<p>"Meriken's Tripcode Engine" is a cross-platform application designed to generate custom/vanity tripcodes at maximum speed. It is arguably the fastest and most powerful program of its kind. It makes effective use of available computing power of CPUs and GPUs, and the user can specify flexible regex patterns for desired tripcodes.
+						<br>GitHub: <a href="https://github.com/meriken/merikens-tripcode-engine-v3">https://github.com/meriken/merikens-tripcode-engine-v3</a></p>
+						<p>
+							<b>Downloading & Installing</b>
+							<br>To download, navigate down to the "Precompiled Binaries for Windows" section under Downloads, and select the latest version.
+							<br>Once downloaded, extract the <i>MerikensTripcodeEngine_{VERSION}_English_Windows</i> folder from the zip to any location you want.
+						</p>
+						<p>
+							<b>Configuring Patterns</b>
+							<br>The <i>patterns.txt</i> file included with the application does a great job explaining how to use patterns.
+							<br>If however the instructions are unclear, simply enter your desired phrase under the "#noregex" line in the <i>patterns.txt</i> file.
+						</p>
+						<p>
+							<b>Running</b>
+							<br>If you have a 64-bit computer, run the MerikensTripcodeEngine64 executable.
+							<br>If you have a 32-bit computer or are unsure, run the MerikensTripcodeEngine executable.
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="collapsible-header"><i class="material-icons">developer_board</i> MTY CL</div>
+					<div class="collapsible-body">
+						<p>A utility for generating custom tripcodes on various imageboards, utilising GPGPU Via OpenCL for faster generating. Based on Chapuni's MTY, released under GPL.
+						<br>GitHub: <a href="https://github.com/madsbuvi/MTY_CL">https://github.com/madsbuvi/MTY_CL</a></p>
+						<p>
+							<b>Downloading & Installing</b>
+							<br>To download, navigate down to the "Releases" section and select the latest version for windows.
+							<br>Once downloaded, extract the <i>mty_cl_{VERSION}</i> folder from the rar to any location you want.
+						</p>
+						<p>
+							<b>Usage</b>
+							<br>Run the <i>mty_gui</i> executable and enter the patterns you would like to search for in the left text field.
+							<br>Simply press the "Start search" button to begin generating tripcodes.
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<br><br><br><br>
+		<p class="center-align">Page made by <b class="grey-text text-darken-2">!susan.qtl2</b>
+	</div>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	<!--
+	
+	- SOURCES -
+	Tampermonkey: https://tampermonkey.net/
+	Greasemonkey: https://www.greasespot.net/
+	4chan: https://www.4chan.org/faq#trip
+	4chan X: https://www.4chan-x.net/
+	NameSync: https://milkytiptoe.github.io/Name-Sync/
+	OneeChan: https://nebukazar.github.io/OneeChan/
+	Meriken's Tripcode Engine: https://github.com/meriken/merikens-tripcode-engine-v3
+	MTY CL: https://github.com/madsbuvi/MTY_CL
+	
+	-->
+
+</body></html>

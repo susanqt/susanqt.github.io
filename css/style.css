@@ -1,0 +1,13 @@
+blockquote {
+	border-left: 5px solid #757575 !important;
+}
+.hidedef {
+	display: none !important;
+}
+h4>a {
+	color: inherit;
+	text-decoration: inherit;
+}
+.a-link {
+	cursor: pointer;
+}
