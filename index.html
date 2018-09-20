@@ -106,8 +106,8 @@
 		<div class="section">
 			<h4 id="fix-adblock"><a href="#fix-adblock"><i class="material-icons">keyboard_arrow_right</i></a> Add exceptions to <b>uBlock Origin</b></h4>
 			<div class="divider"></div>
-			<p>As of writing this, you have to add the below line to the "My Filters" window in the uBlock Origin configuration for 4chan X and NameSync to function properly.
-			<br>If you are using a different ad blocking extension, consider upgrading to <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a>.
+			<p>As of writing this, you have to add the below line to the "My Filters" in the uBlock Origin configuration for 4chan X and NameSync to function properly.
+			<br>If you are using a different ad blocking extension, consider upgrading to uBlock Origin (<a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Chrome</a> / <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">Firefox</a>).
 			<br>And if, for some reason, you aren't using any ad blocking extensions at all you can ignore this.</p>
 			<blockquote>
 				@@||4chan.org^*$csp=default-src 'self' * data: 'unsafe-inline' 'unsafe-eval'
@@ -134,6 +134,10 @@
 				<b>Chrome</b>: <a href="https://github.com/bstats/Tripfag-Finder/raw/master/Tripfag-Finder.user.js">Install</a> (or use the <a href="https://chrome.google.com/webstore/detail/4chan-tripfag-finder/edfokkmgaoaaakgaidkanoioaofademk">Extension</a>)
 				<br>
 				<b>Firefox</b>: <a href="https://github.com/bstats/Tripfag-Finder/raw/master/Tripfag-Finder.user.js">Install</a>
+			</blockquote>
+			<p>Tripfag-Finder will require an exception in the uBlock Origin "My Filters" as well.</p>
+			<blockquote>
+				@@||t-f.xyz$xmlhttprequest,domain=4chan.org
 			</blockquote>
 		</div>
 		<div class="section">
