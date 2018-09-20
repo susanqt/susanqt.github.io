@@ -104,6 +104,17 @@
 			</blockquote>
 		</div>
 		<div class="section">
+			<h4 id="fix-adblock"><a href="#fix-adblock"><i class="material-icons">keyboard_arrow_right</i></a> Add exceptions to <b>uBlock Origin</b></h4>
+			<div class="divider"></div>
+			<p>As of writing this, you have to add the below line to the "My Filters" window in the uBlock Origin configuration for 4chan X and NameSync to function properly.
+			<br>If you are using a different ad blocking extension, consider upgrading to <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a>.
+			<br>And if, for some reason, you aren't using any ad blocking extensions at all you can ignore this.</p>
+			<blockquote>
+				@@||4chan.org^*$csp=default-src 'self' * data: 'unsafe-inline' 'unsafe-eval'
+				<br>@@||namesync.net$xmlhttprequest,domain=4chan.org
+			</blockquote>
+		</div>
+		<div class="section">
 			<h4 id="install-oneechan"><a href="#install-oneechan"><i class="material-icons">add</i></a> OPTIONAL: Install <b>OneeChan</b></h4>
 			<div class="divider"></div>
 			<p>OneeChan is a userscript that functions on top of 4chan X and allows you to customise the site with various functions, themes and mascots.
@@ -174,7 +185,8 @@
 			</ul>
 		</div>
 		<br><br><br><br>
-		<div class="center-align"><a href="./mobile">Mobile Instructions</a>
+		<div class="center-align"><a class="waves-effect waves-light red btn" href="./mobile">MOBILE INSTRUCTIONS</a>
+		<br><br>Sources: <a href="https://tampermonkey.net/">Tampermonkey</a>, <a href="https://www.greasespot.net/">Greasemonkey</a>, <a href="https://www.4chan.org/faq#trip">4chan</a>, <a href="https://www.4chan-x.net/">4chan X</a>, <a href="https://milkytiptoe.github.io/Name-Sync/">NameSync</a>, <a href="https://nebukazar.github.io/OneeChan/">OneeChan</a>, <a href="https://bstats.github.io/Tripfag-Finder/">Tripfag-Finder</a>, <a href="https://github.com/meriken/merikens-tripcode-engine-v3">Meriken's</a>, <a href="https://github.com/madsbuvi/MTY_CL">MTY CL</a>
 		<br>Page compiled by <b class="grey-text text-darken-2">!susan.qtl2</b><br><br></div>
 	</div>
 	
